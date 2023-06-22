@@ -1,2 +1,6 @@
-# Mobile-Scheduling-Application
-Project in CMPT 395: Software Engineering. Create a mobile application to manage and schedule employees.
+# w23turing
+## Team Members
+Simon Gordon (gordons34)
+Eric Cheung (thebowser20)
+Ben Walsh (benwalsh23)
+Mark D'Cruz (dcruzm0)

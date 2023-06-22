@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/YearSpinner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#110427"
+    tools:context=".EditScreens.EditColleaguesMonthlySchedule"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ToggleButton
+        android:id="@+id/toggleAFridayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="fri"
+        android:textOn="fri"
+        app:layout_constraintStart_toEndOf="@+id/toggleAThursdayBtn"
+        app:layout_constraintTop_toTopOf="@+id/toggleAThursdayBtn" />
+
+    <ToggleButton
+        android:id="@+id/toggleSundayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="sun"
+        android:textOn="sun"
+        app:layout_constraintStart_toEndOf="@+id/toggleSaturdayBtn"
+        app:layout_constraintTop_toTopOf="@+id/toggleSaturdayBtn" />
+
+    <ToggleButton
+        android:id="@+id/toggleSaturdayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="sat"
+        android:textOn="sat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <ToggleButton
+        android:id="@+id/toggleATuesdayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="tue"
+        android:textOn="tue"
+        app:layout_constraintStart_toEndOf="@+id/toggleAMondayBtn"
+        app:layout_constraintTop_toTopOf="@+id/toggleAMondayBtn" />
+
+    <ToggleButton
+        android:id="@+id/toggleAWednesdayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="wed"
+        android:textOn="wed"
+        app:layout_constraintStart_toEndOf="@+id/toggleATuesdayBtn"
+        app:layout_constraintTop_toTopOf="@+id/toggleATuesdayBtn" />
+
+    <ToggleButton
+        android:id="@+id/toggleAMondayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="mon"
+        android:textOn="mon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ToggleButton
+        android:id="@+id/toggleAThursdayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="thu"
+        android:textOn="thu"
+        app:layout_constraintStart_toEndOf="@+id/toggleAWednesdayBtn"
+        app:layout_constraintTop_toTopOf="@+id/toggleAWednesdayBtn" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Morning"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Weekend"
+        android:textColor="#F3F3F3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleAMondayBtn" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:text="Month"
+        android:textColor="#F3F3F3"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Afternoon"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleMMondayBtn" />
+
+    <Button
+        android:id="@+id/AddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="24dp"
+        android:text="Update"
+        android:backgroundTint="#FFE49976"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SelectTimeBtn"
+        android:layout_width="101dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-10dp"
+        android:text="Select"
+        android:backgroundTint="#FFE49976"
+        app:layout_constraintStart_toEndOf="@+id/MonthSpinner"
+        app:layout_constraintTop_toTopOf="@+id/MonthSpinner" />
+
+    <ToggleButton
+        android:id="@+id/toggleMMondayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="mon"
+        android:textOn="mon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ToggleButton
+        android:id="@+id/toggleMTuesdayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="tue"
+        android:textOn="tue"
+        app:layout_constraintStart_toEndOf="@+id/toggleMMondayBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ToggleButton
+        android:id="@+id/toggleMWednesdayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="wed"
+        android:textOn="wed"
+        app:layout_constraintStart_toEndOf="@+id/toggleMTuesdayBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ToggleButton
+        android:id="@+id/toggleMThursdayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="thu"
+        android:textOn="thu"
+        app:layout_constraintStart_toEndOf="@+id/toggleMWednesdayBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ToggleButton
+        android:id="@+id/toggleMFridayBtn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_color"
+        android:textColor="@drawable/togglebuttontextcolor"
+        android:textOff="fri"
+        android:textOn="fri"
+        app:layout_constraintStart_toEndOf="@+id/toggleMThursdayBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:text="Year"
+        android:textColor="#F3F3F3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleSaturdayBtn" />
+
+    <Spinner
+        android:id="@+id/MonthSpinner"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/yearSpinner"
+        app:layout_constraintTop_toTopOf="@+id/yearSpinner" />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#FFE49976"
+        android:text="Reset"
+        app:layout_constraintBottom_toTopOf="@+id/MonthSpinner"
+        app:layout_constraintStart_toEndOf="@+id/toggleSundayBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
