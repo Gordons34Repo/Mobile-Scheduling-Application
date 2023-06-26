@@ -32,7 +32,7 @@ The main screen went over several revisions before we reached our final layout o
 
 #### View Today
 
-&nbsp;- This button displays the current day's scheduled employees.<br clear="left"/>
+&nbsp;- This button displays the [current day's scheduled employees](#calendar-continued--).<br clear="left"/>
 
 ## Calendar
 
@@ -54,3 +54,19 @@ the layout of the schedule was designed to concisely display the current month, 
 Something I would like to have finished before the end of our last sprint was making the navigation UI a bit more fitting to the overal aesthetic of the application. On paper and in our sprint planning, this didn't seem like a very difficult task, but android studio was a surprisingly challenging tool for user interfaces.<br clear="right"/>
 
 ## Calendar Continuted. . .
+
+<img height ="600px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/44db06f8-2b44-457c-9c86-2f45d7641d13"/>
+
+### Layout
+
+This section of the app can be reached by either clicking on a day in the calendar, or clicking on the main menu button to "View Today". This page was designed to easily display monring and afternoon shifts, and allow the scheduling manager to slot colleagues accordingly. When selecting colleagues for a day, it calls upon the application's database to grab only colleagues that are available at that time. I go over this more in the [Staff] section.
+
+### Challenges
+
+- Pulling and loading data from the database.
+- Grabbing only available colleagues from the database.
+- Dplaying colleagues in order using sharding.
+
+### Retrospective
+
+A major challenge in this section was the UI. To display colleagues reactively, we had to use a feature called "Sharding", wherein, we create shards of a piece of UI, and add it on the page. This allowed us to functionalize our code instead of hardcoding where the colleague slots are. This was important as the client would have some days where less people are scheduled than usual. Sharding had the unintended side effect of being extremely hard to stylize, which left us with an inconsistent UI design. IF we had more time this would definitely be something I would like to fix.
