@@ -69,4 +69,8 @@ This section of the app can be reached by either clicking on a day in the calend
 
 ### Retrospective
 
-A major challenge in this section was the UI. To display colleagues reactively, we had to use a feature called "Sharding", wherein we create shards of a piece of UI and add it on the page. This allowed us to functionalize our code instead of hardcoding where the colleague slots are. This was important as the client would have some days where less people are scheduled than usual. Sharding had the unintended side effect of being extremely hard to stylize, which left us with an inconsistent UI design. IF we had more time this would definitely be something I would like to fix.
+A major challenge in this section was the UI. To display colleagues reactively, we had to use a feature called "Sharding", wherein we create shards of a piece of UI and add it on the page. This allowed us to functionalize our code instead of hardcoding where the colleague slots are. This was important as the client would have some days where less people are scheduled than usual. Sharding had the unintended side effect of being extremely hard to stylize, which left us with an inconsistent UI design. IF we had more time this would definitely be something I would like to fix.<br clear="left"/>
+
+## Employee Management
+
+<img height ="600px" align="right" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/07f05f50-8b8c-4e88-94ca-85fb53cf7b6f"/>
