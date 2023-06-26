@@ -44,11 +44,13 @@ the layout of the schedule was designed to concisely display the current month, 
 
 ### Challenges
 
-&nbsp;- Getting the days to display in the correct order.<br />
-&nbsp;- Aligning the first day on the first week day of a month.<br />
-&nbsp;- Displaying the correct number of days in a month.<br />
-&nbsp;- Display which days are in progress or completed.<br />
+<ul><li>Getting the days to display in the correct order.</li>
+<li>Aligning the first day on the first week day of a month.</li>
+<li>Displaying the correct number of days in a month.</li>
+<li>Display which days are in progress or completed.</li></ul>
 
 ### Retrospective
 
-Something I would like to have finished before the end of our last sprint was making the navigation UI a bit more fitting to the overal aesthetic of the application. On paper and in our sprint planning, this didn't seem like a very difficult task, but android studio was a surprisingly challenging tool for user interfaces.
+Something I would like to have finished before the end of our last sprint was making the navigation UI a bit more fitting to the overal aesthetic of the application. On paper and in our sprint planning, this didn't seem like a very difficult task, but android studio was a surprisingly challenging tool for user interfaces.<br clear="right"/>
+
+## Calendar Continuted. . .
