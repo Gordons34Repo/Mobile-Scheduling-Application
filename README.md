@@ -28,7 +28,7 @@ The main screen went over several revisions before we reached our final layout o
 
 #### Staff
 
-&nbsp;- This button redirects to view the employee management section of the application.
+&nbsp;- This button redirects to view the [employee management](#employee-management) section of the application.
 
 #### View Today
 
