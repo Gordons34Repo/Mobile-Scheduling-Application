@@ -12,7 +12,7 @@ This was the final project for **CMPT 395: Software Engineering** where we were 
 <li>Schedule employees to shifts</li>
 <li>Update availability, Add vacation, and other QOL features</li></ul>
 
-The project was developed using [Android Studio Electric Eel 2022.1.1](https://developer.android.com/studio/releases/past-releases/as-electric-eel-release-notes), and followed Agile development, more specifically, Scrum. The project was broken into 4 sprints, each of which were 2 weeks in length.
+The project was developed using [Android Studio Electric Eel 2022.1.1](https://developer.android.com/studio/releases/past-releases/as-electric-eel-release-notes), and followed Agile development, more specifically, Scrum. The project was broken into 3 sprints, each of which were 2 weeks in length. We were also asked to plan a final sprint, as the project would continue if we weren't in school.
 
 ## Main Menu
 
@@ -95,9 +95,9 @@ The layout of the employee management section is about the same as scheduling em
 -----
 <h3 align="center">Tabs Section Screens</h1>
 
-<img length ="200" height ="425px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/aceec0d8-3c62-4d92-9f8a-2100b9f57906"/>
-<img length ="200" height ="425px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/12eb5678-2650-4657-aa6e-8f1fcf84dad6"/>
-<img length ="200" height ="425px" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/24d6e9fa-d74f-4ef6-a795-b3db031df7a9"/>
+<img length ="200" height ="435px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/aceec0d8-3c62-4d92-9f8a-2100b9f57906"/>
+<img length ="200" height ="435px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/12eb5678-2650-4657-aa6e-8f1fcf84dad6"/>
+<img length ="200" height ="435px" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/24d6e9fa-d74f-4ef6-a795-b3db031df7a9"/>
 <br clear="left"/>
 
 ## Final Thoughts
