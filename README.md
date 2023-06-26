@@ -95,9 +95,9 @@ The layout of the employee management section is about the same as scheduling em
 -----
 <h3 align="center">Tabs Section Screens</h1>
 
-<img length ="200" height ="400px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/aceec0d8-3c62-4d92-9f8a-2100b9f57906"/>
-<img length ="200" height ="400px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/12eb5678-2650-4657-aa6e-8f1fcf84dad6"/>
-<img length ="200" height ="400px" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/24d6e9fa-d74f-4ef6-a795-b3db031df7a9"/>
+<img length ="200" height ="425px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/aceec0d8-3c62-4d92-9f8a-2100b9f57906"/>
+<img length ="200" height ="425px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/12eb5678-2650-4657-aa6e-8f1fcf84dad6"/>
+<img length ="200" height ="425px" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/24d6e9fa-d74f-4ef6-a795-b3db031df7a9"/>
 <br clear="left"/>
 
 ## Final Thoughts
