@@ -12,7 +12,7 @@ This was the final project for **CMPT 395: Software Engineering** where we were 
 <li>Schedule employees to shifts</li>
 <li>Update availability, Add vacation, and other QOL features</li></ul>
 
-The project was developed using [Android Studio Electric Eel 2022.1.1](https://developer.android.com/studio/releases/past-releases/as-electric-eel-release-notes), and followed Agile development, more specifically, Scrum. The project was broken into 3 sprints, each of which were 2 weeks in length. We were also asked to plan a final sprint, as the project would continue if we weren't in school.
+The project was developed using [Android Studio Electric Eel 2022.1.1](https://developer.android.com/studio/releases/past-releases/as-electric-eel-release-notes), and followed Agile development, more specifically, Scrum. The project was broken into 3 sprints, each of which were 2 weeks in length. We were also asked to plan a final sprint, as the project would continue as if we weren't in school.
 
 ## Main Menu
 
