@@ -8,9 +8,9 @@
 ## Basic Introduction to Project
 
 This was the final project for **CMPT 395: Software Engineering** where we were tasked with creating a mobile application for a client which served the following features:
-- Add / Edit / Remove employees
-- Schedule employees to shifts
-- Update availability, Add vacation, and other QOL features
+<ul><li>Add / Edit / Remove employees</li>
+<li>Schedule employees to shifts</li>
+<li>Update availability, Add vacation, and other QOL features</li></ul>
 
 The project was developed using [Android Studio Electric Eel 2022.1.1](https://developer.android.com/studio/releases/past-releases/as-electric-eel-release-notes), and followed Agile development, more specifically, Scrum. The project was broken into 4 sprints, each of which were 2 weeks in length.
 
