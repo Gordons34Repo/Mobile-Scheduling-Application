@@ -53,7 +53,7 @@ the layout of the schedule was designed to concisely display the current month, 
 
 Something I would like to have finished before the end of our last sprint was making the navigation UI a bit more fitting to the overal aesthetic of the application. On paper and in our sprint planning, this didn't seem like a very difficult task, but android studio was a surprisingly challenging tool for user interfaces.<br clear="right"/>
 
-## Calendar Continuted. . .
+## Calendar Continued. . .
 
 <img height ="600px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/44db06f8-2b44-457c-9c86-2f45d7641d13"/>
 
