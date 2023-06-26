@@ -16,7 +16,7 @@ The project was developed using [Android Studio Electric Eel 2022.1.1](https://d
 
 ## Main Menu
 
-<img height="600px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/595d1ea5-a60b-4592-acf4-2cbb56c0179e">
+<img height="600px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/595d1ea5-a60b-4592-acf4-2cbb56c0179e"/>
 
 ### Main Screen layout
 
@@ -24,7 +24,7 @@ The main screen went over several revisions before we reached our final layout o
 
 #### View Schedule
 
-&nbsp;- This button redirects to view the current month's schedule.
+&nbsp;- This button redirects to view the [current month's schedule](#calendar).
 
 #### Staff
 
@@ -32,4 +32,10 @@ The main screen went over several revisions before we reached our final layout o
 
 #### View Today
 
-&nbsp;- This button displays the current day's scheduled employees.
+&nbsp;- This button displays the current day's scheduled employees.<br clear="left"/>
+
+## Calendar
+
+<img height ="600px" align="right" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/07f05f50-8b8c-4e88-94ca-85fb53cf7b6f"/>
+
+### 
