@@ -63,10 +63,10 @@ This section of the app can be reached by either clicking on a day in the calend
 
 ### Challenges
 
-- Pulling and loading data from the database.
-- Grabbing only available colleagues from the database.
-- Dplaying colleagues in order using sharding.
+&nbsp;- Pulling and loading data from the database.<br/>
+&nbsp;- Grabbing only available colleagues from the database.<br/>
+&nbsp;- Displaying colleagues in order using sharding.<br/>
 
 ### Retrospective
 
-A major challenge in this section was the UI. To display colleagues reactively, we had to use a feature called "Sharding", wherein, we create shards of a piece of UI, and add it on the page. This allowed us to functionalize our code instead of hardcoding where the colleague slots are. This was important as the client would have some days where less people are scheduled than usual. Sharding had the unintended side effect of being extremely hard to stylize, which left us with an inconsistent UI design. IF we had more time this would definitely be something I would like to fix.
+A major challenge in this section was the UI. To display colleagues reactively, we had to use a feature called "Sharding", wherein we create shards of a piece of UI and add it on the page. This allowed us to functionalize our code instead of hardcoding where the colleague slots are. This was important as the client would have some days where less people are scheduled than usual. Sharding had the unintended side effect of being extremely hard to stylize, which left us with an inconsistent UI design. IF we had more time this would definitely be something I would like to fix.
