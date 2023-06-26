@@ -59,7 +59,7 @@ Something I would like to have finished before the end of our last sprint was ma
 
 ### Layout
 
-This section of the app can be reached by either clicking on a day in the calendar, or clicking on the main menu button to "View Today". This page was designed to easily display monring and afternoon shifts, and allow the scheduling manager to slot colleagues accordingly. When selecting colleagues for a day, it calls upon the application's database to grab only colleagues that are available at that time. I go over this more in the [Staff] section.
+This section of the app can be reached by either clicking on a day in the calendar, or clicking on the main menu button to "View Today". This page was designed to easily display monring and afternoon shifts, and allow the scheduling manager to slot colleagues accordingly. When selecting colleagues for a day, it calls upon the application's database to grab only colleagues that are available at that time. I go over this more in the [Staff](#employee-management) section.
 
 ### Challenges
 
@@ -73,4 +73,33 @@ A major challenge in this section was the UI. To display colleagues reactively, 
 
 ## Employee Management
 
-<img height ="600px" align="right" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/07f05f50-8b8c-4e88-94ca-85fb53cf7b6f"/>
+<img height ="500px" align="right" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/496faee5-92b6-4710-8cf2-b98490dd4a70"/>
+
+### Layout
+
+The layout of the employee management section is about the same as scheduling employees, as we used the same sharding idea. This allows us to have employee entries grow vertically downwards as you create more of them. A takeaway of this approach, like before, is making the UI look appealing and consistent with the rest of the app was extremey challenging and didn't make it to the end of our last spint. Regardless, in this menu you can click on an employee's entry to bring up 3 tabs:
+
+- Genral
+  - General employee information, such as name, contact information and if the employee is opening or closing trained
+- Week Availability
+  - Set employee's availability. This is achieved by toggling the days of the month. In the image provided, I am set to only work seeends.
+- Days Off
+  - Set the days the employee is off. Click on days to set them off or on.
+
+### Challenges
+
+- Making the UI consistent with the rest of the app.
+- Defining what information to show for employees.
+- Connecting days off to the database.
+- Validating field entries, such as string len and valid chars.<br clear="right"/>
+-----
+<h3 align="center">Tabs Section Screens</h1>
+
+<img length ="400" height ="500px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/aceec0d8-3c62-4d92-9f8a-2100b9f57906"/>
+<img length ="400" height ="500px" align="left" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/12eb5678-2650-4657-aa6e-8f1fcf84dad6"/>
+<img length ="400" height ="500px" src="https://github.com/Gordons34Repo/Mobile-Scheduling-Application/assets/135652713/24d6e9fa-d74f-4ef6-a795-b3db031df7a9"/>
+<br clear="left"/>
+
+## Final Thoughts
+
+This project was a lot of fun to work on and I learned a lot beyond just programming. Most of my Computing Sciences projects up to this point were done in terminal so it was interesting to be expected and graded on creating a good User Interface for the user. This project also taught me how invaluable both communication and planning are in project Development. Having daily standups with your team and giving small updates on what each person is working on not only gives a clear sense to everyone where the project is in terms of development, but also is a great oppourtunity to ask for help or clarification on a problem. 
