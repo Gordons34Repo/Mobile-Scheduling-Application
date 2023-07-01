@@ -81,7 +81,7 @@ A major challenge in this section was the UI. To display colleagues reactively, 
 
 The layout of the employee management section is about the same as scheduling employees, as we used the same sharding idea. This allows us to have employee entries grow vertically downwards as you create more of them. A takeaway of this approach, like before, is making the UI look appealing and consistent with the rest of the app was extremey challenging and didn't make it to the end of our last spint. Regardless, in this menu you can click on an employee's entry to bring up 3 tabs:
 
-- Genral
+- General
   - General employee information, such as name, contact information and if the employee is opening or closing trained
 - Week Availability
   - Set employee's availability. This is achieved by toggling the days of the month. In the image provided, I am set to only work seeends.
