@@ -1,7 +1,7 @@
 # Mobile Scheduling Application
 ## Team Members:
 - Simon Gordon ([gordons34](https://github.com/gordons34))
-- Eric Cheung ([thebowser20](https://github.com/TheBowser20))
+- Eric Cheung ([EricC2002](https://github.com/EricC2002))
 - Ben Walsh ([benwalsh23](https://github.com/benwalsh23))
 - Mark D'Cruz ([dcruzm0](https://github.com/dcruzm0))
 
